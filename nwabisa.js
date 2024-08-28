@@ -3,7 +3,8 @@
 /* Changed variable definitions */
 let firstname = "Nwabisa"
 let surname = "Gabe"
-let role = "CEO"
+export let role = "CEO" /*exported role*/
 
 let display= firstname + " " + surname + " (" + role + ")"
+
 document.querySelector('#nwabisa').innerText = display

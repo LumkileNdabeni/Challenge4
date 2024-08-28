@@ -3,7 +3,7 @@
 /* Changed variable definitions */
 let firstname = "Johannes" 
 let surname = "Potgieter"
-let role = "Intern"
+ export let role = "Intern" /*exported role*/
 
 let display= firstname + " " + surname + " (" + role + ")"
 
